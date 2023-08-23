@@ -44,7 +44,11 @@ Ripple (XRP)|Con un enfoque en las transacciones internacionales y la colaboraci
 Dogecoin (DOGE)|Conocida por su naturaleza meme, DOGE puede ser interesante para analizar el efecto de las redes sociales en el precio y la adopción de criptomonedas.
 USD Coin (USDC)|Una stablecoin respaldada por dólares estadounidenses, que puede ofrecer información sobre la relación entre las criptomonedas y las monedas tradicionales.
 
+## Serie de tiempo analizado
 
+El año 2020 será recordado como aquel que cambió las relaciones sociales y con ellas los hábitos de consumo y por ende la economía y las inversiones.
+Los analisis realizados con el proyecto estan enfocados a la observación del comportamiento de la canasta de criptomonedas arriba mencionadas durante la denominada post-pandemia. 
+Es decir, con el proyecto centramos en análisis en que ha pasado con la canasta de criptomonedas desde enero del año 2020, cuando los rumores de un posible lock-down apenas aperecian como consecuencia de las noticias que se generaban desde los países asiáticos, hasta enero de 2023, es decir el periodo de tiempo en donde las actividades económicas se desarrollan de lo que se ha denominado como la "nueva normalidad". 
 
 ---
 ## Apis utilizadas
@@ -160,11 +164,52 @@ Asimismo con se realizo el desarrollo de funciones que permientieron acceder a l
 
 Se debe tener en cuenta que para realizar consultas en la API FRED, a diferencia de CoinGecko es necesario tene una Key de acceso.
 
+## Outliers
+
+Un punto importante a tener en cuenta dentro de la metodología utilizada en proyecto es el manejo e identificación de outliers toda vez que de acuerdo con la documentación encontrada acerca del mercado de las criptomonedas, el cual se una de las caracteristicas de estos actividades precisamente es la volitidad en sus precios.
+
+Lo anterior depende de una combinación de factores fundamentales, técnicos y psicológicos que interactúan de manera compleja. Algunos de los principales factores que contribuyen a la volatilidad en los precios de las criptomonedas son los siguientes:
+
+- Adopción y Reconocimiento: Dado que las criptomonedas son relativamente nuevas en comparación con los mercados financieros tradicionales, su adopción y reconocimiento aún están en desarrollo. Los cambios en la percepción pública, la aceptación por parte de gobiernos y empresas, así como los eventos que afectan la legitimidad y la confianza en las criptomonedas, pueden generar volatilidad.
+
+- Noticias y Eventos: Las noticias relacionadas con regulaciones gubernamentales, anuncios de empresas importantes, cambios en la tecnología subyacente de las criptomonedas y otros eventos inesperados pueden tener un impacto significativo en los precios. Los inversores suelen reaccionar de manera rápida y emocional a estas noticias, lo que puede llevar a movimientos bruscos en los precios.
+
+- Liquidez Limitada: Aunque el mercado de criptomonedas ha crecido, aún puede carecer de la misma liquidez que los mercados financieros más establecidos. Esto significa que una gran orden de compra o venta puede tener un impacto desproporcionado en el precio, generando movimientos abruptos.
+
+- Inversores Institucionales: La entrada de inversores institucionales, como fondos de cobertura y empresas financieras, puede aumentar la volatilidad debido a su capacidad para realizar grandes transacciones que afectan los precios.
+
+- Manipulación del Mercado: Dada la relativa falta de regulación en comparación con los mercados tradicionales, el mercado de criptomonedas puede ser vulnerable a la manipulación. Grandes operadores pueden influir en los precios mediante prácticas como "pump and dump" (inflar y desinflar) o la difusión de información falsa.
+
+- Naturaleza Especulativa: Muchos inversores en criptomonedas están motivados por la especulación y la posibilidad de obtener ganancias rápidas. Esto puede llevar a un comportamiento impulsivo y emocional, lo que a su vez contribuye a la volatilidad.
+
+- Tecnología y Seguridad: Los problemas técnicos, los ataques de seguridad y los cambios en los protocolos de una criptomoneda pueden afectar drásticamente su precio y generar incertidumbre en los inversores.
+
+- Mercado 24/7: A diferencia de los mercados financieros tradicionales, el mercado de criptomonedas opera las 24 horas del día, los 7 días de la semana. Esto significa que las fluctuaciones en los precios pueden ocurrir en cualquier momento, incluso cuando otros mercados están cerrados.
+
+- Falta de Regulación Uniforme: La falta de una regulación uniforme en todo el mundo puede llevar a diferencias en las políticas regulatorias en diferentes países. Los cambios regulatorios pueden tener un impacto directo en los precios de las criptomonedas.
+
+- Expectativas del Mercado: Las expectativas de los inversores sobre el futuro de las criptomonedas, incluidos los avances tecnológicos y el potencial de adopción masiva, pueden influir en los precios y generar movimientos volátiles.
+
+En conjunto, estos factores y otros interactúan para generar la volatilidad en los precios de las criptomonedas. Es importante destacar que la volatilidad también puede presentar oportunidades para los inversores, pero también aumenta el riesgo de pérdidas significativas y su comportamiento se evidencia en sus precios. 
+
+Igualmente se debe tener en cuenta que el análisis que se realiza en el proyecto evalua el comportamiento de un conjunto de criptomonedas y no de una moneda en singular. 
+
+----
+## KPI´s propuestos
+Capitalización de Mercado Total del Conjunto de monedas
+La suma de las capitalizaciones de mercado individuales de todas las criptomonedas en el conjunto. Este KPI proporciona una visión general del tamaño combinado de estas criptomonedas en el mercado.
+
+Cambio porcentual promedio en 24 horas:
+El promedio de los cambios porcentuales en los precios de las criptomonedas en el conjunto durante las últimas 24 horas. Este KPI puede indicar la volatilidad diaria promedio del conjunto y su tendencia alcista o bajista.
+
+Volumen Total de Negociación del Conjunto de monedas
+La suma de los volúmenes de negociación individuales de todas las criptomonedas en el conjunto. Este KPI indica la cantidad total de activos que se han negociado en un período de tiempo determinado y puede reflejar el interés y la liquidez del conjunto.
 
 ----
 ## Funcionalidades del Proyecto
 
 - Dashboard Interactivo
+
 Desarrollo de un dashboard interactivo utilizando Power BI para visualizar y explorar los datos de criptomonedas de manera eficiente. El dashboard incluye filtros que permiten a los usuarios seleccionar diferentes criptomonedas y rangos de tiempo para obtener información específica. Además, se utilizaron gráficos adecuados según la tipología de variable para facilitar la interpretación de los datos.
 
 ---
