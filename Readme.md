@@ -43,6 +43,8 @@ Polkadot (DOT)|Una plataforma que busca conectar múltiples blockchains, lo que 
 Ripple (XRP)|Con un enfoque en las transacciones internacionales y la colaboración con instituciones financieras, XRP puede proporcionar información sobre casos de uso en el sector financiero.
 Dogecoin (DOGE)|Conocida por su naturaleza meme, DOGE puede ser interesante para analizar el efecto de las redes sociales en el precio y la adopción de criptomonedas.
 USD Coin (USDC)|Una stablecoin respaldada por dólares estadounidenses, que puede ofrecer información sobre la relación entre las criptomonedas y las monedas tradicionales.
+Tether| Criptomoneda conocida como una "stablecoin", lo que significa que está diseñada para mantener un valor estable en relación con una moneda fiduciaria, en este caso, el dólar estadounidense (USD). A diferencia de otras criptomonedas, cuyos valores pueden ser altamente volátiles, Tether está respaldado en una proporción de 1:1 por activos en moneda fiduciaria, generalmente en dólares estadounidenses mantenidos en reserva.
+
 
 ## Serie de tiempo analizado
 
